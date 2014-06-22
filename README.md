@@ -26,7 +26,8 @@ the function "setwd()") and instructing
 `source("run_analysis.R")`
 
 will read and execute the script that performs certain operations on a data set
-in order to prepare tidy data that can be used for later analysis.
+in order to prepare tidy data that can be used for later analysis. The final
+structure and content of the tidy data set is detailed in the file "CodeBook.md".
 
 
 ## DATA SOURCES
