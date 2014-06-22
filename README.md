@@ -6,25 +6,24 @@ Repository for the Course Project for Getting and Cleaning Data on Coursera
 
 ## AUTHOR
 
-Nikos Alexandris, nik@nikosalexandris.net
+Nikos Alexandris
 
 
 ## DESCRIPTION
 
 This repository, titled "CourseProject_TidyData", contains information, data and
-code for a project related to the R related [0] course "Getting and Cleaning 
+code for a project related to the R [0] related course "Getting and Cleaning 
 Data" on Coursera [1][2].
 The purpose of this project is to demonstrate the ability to collect, work 
 with, and clean a data set using R.
 
 The code contained in the script named "run_analysis.R", can be sourced from 
-inside an R session. For example,
-
-launching a new R session (best from inside the directory where the data and 
+inside an R session. For example, launching a new R session
+(best from inside the directory where the data and 
 script are stored -- if not, set the working directory to point to it by using 
 the function "setwd()") and instructing
 
-  source("run_analysis.R")
+`source("run_analysis.R")`
 
 will read and execute the script that performs certain operations on a data set
 in order to prepare tidy data that can be used for later analysis.
@@ -36,9 +35,11 @@ The original data set to be processed for the course project is available as a
 "zip" file at:
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
 
-It is a multidimensional time-series, composed by 1) 30 subjects (experiment 
-volunteers), 2) various activities (for each subject) and 3) various measured 
-variables (for each activity).
+It is a multidimensional time-series, composed by
+
+1) 30 subjects (experiment volunteers),
+2) various activities (for each subject) and
+3) various measured variables (for each activity).
 
 After downloading, it should be "unzipped". Details for the data set are 
 provided in its README.md file.
@@ -100,14 +101,16 @@ The same function has been used to export the variable names for the tidy data s
 For this repository, no LICENSE or COPYRIGHT applies. However, the LICENSE for
 the original data set, as retrieved from its source README.md file, is:
 
- --%<---
-/ License:
-| ========
-| Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
-| [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-| This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
-\ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
- --->%--
+
+License:
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
 
 
 ## CREDITS & ACKNOLEDGEMENTS
@@ -123,7 +126,9 @@ the original data set, as retrieved from its source README.md file, is:
 ## SOURCES & REFERENCES
 
 [0] <http://www.r-project.org/>
+
 [1] <http://www.coursera.org>
+
 [2] 
 <https://class.coursera.org/getdata-004/human_grading/view/courses/972137/assessments/3/submissions>
 
